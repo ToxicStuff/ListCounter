@@ -1,2 +1,3 @@
 # -ListCounter
-Rework for Quest, Idea from MintLily
+Original Author:
+<a href="https://github.com/MintLily/ListCounter">MintLily</a>
