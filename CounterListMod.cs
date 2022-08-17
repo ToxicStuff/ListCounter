@@ -24,12 +24,6 @@ public class Main : MelonMod
 {
     public override void OnApplicationStart()
     {
-        MelonCoroutines.Start(DoTheUi());
-    }
-    
-    private IEnumerator DoTheUi() 
-    {
-        while (VRCUiManager.prop_VRCUiManager_0 == null) yield return new WaitForEndOfFrame();
         Patch.Init();
     }
 }
